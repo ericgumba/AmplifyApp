@@ -9,12 +9,21 @@ function Home() {
       <header> 
         <h1>We now have Home!</h1>
       </header>
-      <button> debate someone </button> 
-        <Link to="/signup">
+      <Link to="/debatelist">
+        <button> 
+            debate someone 
+        </button> 
+      </Link>
+      <Link to="/signup">
         <button variant="outlined">
             Sign up
         </button>
-        </Link>  
+      </Link>   
+      <Link to="/debateroom">
+        <button variant="outlined">
+            debate room
+        </button>
+      </Link>  
     </div>
   );
 }
