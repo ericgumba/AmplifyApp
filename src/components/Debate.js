@@ -14,9 +14,7 @@ const Debate = (props) => {
       <div>
           <header>{props.debateId}</header>
           <header>{props.debateTitle}</header>
-          <header>{props.debateSummary}</header>
-
-
+          <header>{props.debateSummary}</header> 
             <Link to={path} >
                 <button> Join debate </button>
             </Link> 
